@@ -21,8 +21,8 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0A2ADE40243B8023008F5932 /* xDripClientUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC82210E664300A81379 /* xDripClientUI.framework */; };
-		0A2ADE41243B8023008F5932 /* xDripClientUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC82210E664300A81379 /* xDripClientUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A2ADE40243B8023008F5932 /* xDripClientRightUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC82210E664300A81379 /* xDripClientRightUI.framework */; };
+		0A2ADE41243B8023008F5932 /* xDripClientRightUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC82210E664300A81379 /* xDripClientRightUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0A2ADE44243B8042008F5932 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC94210E67B000A81379 /* HealthKit.framework */; };
 		0A2ADE45243B8051008F5932 /* LoopKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC8B210E665600A81379 /* LoopKitUI.framework */; };
 		0A2ADE46243B8051008F5932 /* LoopKitUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 43A8EC8B210E665600A81379 /* LoopKitUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -92,7 +92,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0A2ADE41243B8023008F5932 /* xDripClientUI.framework in Embed Frameworks */,
+				0A2ADE41243B8023008F5932 /* xDripClientRightUI.framework in Embed Frameworks */,
 				0A9FF70A243B791E007A7DB3 /* xDripClientRight.framework in Embed Frameworks */,
 				0A9FF714243B7A05007A7DB3 /* LoopKit.framework in Embed Frameworks */,
 				0A2ADE46243B8051008F5932 /* LoopKitUI.framework in Embed Frameworks */,
@@ -139,7 +139,7 @@
 		432B0E971CDFC3C50045347B /* SpikeClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpikeClientTests.swift; sourceTree = "<group>"; };
 		432B0E991CDFC3C50045347B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43A8EC7B210E661400A81379 /* LoopKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoopKit.framework; path = Carthage/Build/iOS/LoopKit.framework; sourceTree = "<group>"; };
-		43A8EC82210E664300A81379 /* xDripClientUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = xDripClientUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A8EC82210E664300A81379 /* xDripClientRightUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = xDripClientRightUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A8EC84210E664300A81379 /* xDripClientRightUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xDripClientRightUI.h; sourceTree = "<group>"; };
 		43A8EC85210E664300A81379 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43A8EC8B210E665600A81379 /* LoopKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LoopKitUI.framework; path = Carthage/Build/iOS/LoopKitUI.framework; sourceTree = "<group>"; };
@@ -177,7 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A2ADE40243B8023008F5932 /* xDripClientUI.framework in Frameworks */,
+				0A2ADE40243B8023008F5932 /* xDripClientRightUI.framework in Frameworks */,
 				0A2ADE44243B8042008F5932 /* HealthKit.framework in Frameworks */,
 				0A2ADE45243B8051008F5932 /* LoopKitUI.framework in Frameworks */,
 				0A9FF709243B791E007A7DB3 /* xDripClientRight.framework in Frameworks */,
@@ -257,7 +257,7 @@
 			children = (
 				432B0E881CDFC3C50045347B /* xDripClientRight.framework */,
 				432B0E921CDFC3C50045347B /* xDripClientRightTests.xctest */,
-				43A8EC82210E664300A81379 /* xDripClientUI.framework */,
+				43A8EC82210E664300A81379 /* xDripClientRightUI.framework */,
 				0A9FF6F5243B78D3007A7DB3 /* TestApp.app */,
 			);
 			name = Products;
@@ -412,7 +412,7 @@
 			);
 			name = xDripClientRightUI;
 			productName = SpikeClientUI;
-			productReference = 43A8EC82210E664300A81379 /* xDripClientUI.framework */;
+			productReference = 43A8EC82210E664300A81379 /* xDripClientRightUI.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
