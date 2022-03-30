@@ -882,11 +882,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/$(CARTHAGE_PLATFORM_PATH_$(PLATFORM_NAME))",
 				);
-				INFOPLIST_FILE = xDripClient/Info.plist;
+				INFOPLIST_FILE = xDripClientRight/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.--TeamIdentifierPrefix-loopkit.xdripclient";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--TeamIdentifierPrefix-loopkit.xdripclientRight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -912,11 +912,11 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/$(CARTHAGE_PLATFORM_PATH_$(PLATFORM_NAME))",
 				);
-				INFOPLIST_FILE = xDripClient/Info.plist;
+				INFOPLIST_FILE = xDripClientRight/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.--TeamIdentifierPrefix-loopkit.xdripclient";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.--TeamIdentifierPrefix-loopkit.xdripclientRight";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
@@ -988,12 +988,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = xDripClientUI/Info.plist;
+				INFOPLIST_FILE = xDripClientRightUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.xDripClientUI;
-				PRODUCT_NAME = xDripClientUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.xDripClientRightUI;
+				PRODUCT_NAME = xDripClientRightUI;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 4.0;
@@ -1024,12 +1024,12 @@
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				GCC_C_LANGUAGE_STANDARD = gnu11;
-				INFOPLIST_FILE = xDripClientUI/Info.plist;
+				INFOPLIST_FILE = xDripClientRightUI/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.xDripClientUI;
-				PRODUCT_NAME = xDripClientUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.loopkit.xDripClientRightUI;
+				PRODUCT_NAME = xDripClientRightUI;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
