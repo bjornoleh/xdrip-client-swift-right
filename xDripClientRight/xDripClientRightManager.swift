@@ -1,5 +1,5 @@
 //
-//  xDripClientManager.swift
+//  xDripClientRightRightManager.swift
 //  Loop
 //
 //  Copyright © 2018 LoopKit Authors. All rights reserved.
@@ -11,12 +11,12 @@ import Combine
 
 
 
-public class xDripClientManager: CGMManager {
+public class xDripClientRightRightManager: CGMManager {
     
-    public static var managerIdentifier = "xDripClient"
+    public static var managerIdentifier = "xDripClientRightRight"
 
     public init() {
-        client = xDripClient()
+        client = xDripClientRightRight()
         updateTimer = DispatchTimer(timeInterval: 10, queue: processQueue)
         scheduleUpdateTimer()
     }
@@ -35,7 +35,7 @@ public class xDripClientManager: CGMManager {
         return [:]
     }
 
-    public var client: xDripClient?
+    public var client: xDripClientRightRight?
     
     public static let localizedTitle = LocalizedString("xDrip4iO5", comment: "Title for the CGMManager option")
 
@@ -75,7 +75,7 @@ public class xDripClientManager: CGMManager {
 
     public let managedDataInterval: TimeInterval? = nil
     
-    private let processQueue = DispatchQueue(label: "xDripClientManager.processQueue")
+    private let processQueue = DispatchQueue(label: "xDripClientRightRightManager.processQueue")
 
     public private(set) var latestBackfill: Glucose?
     
@@ -223,7 +223,7 @@ public class xDripClientManager: CGMManager {
     public var device: HKDevice? {
         
         return HKDevice(
-            name: "xDripClient",
+            name: "xDripClientRightRight",
             manufacturer: "xDrip",
             model: latestCollector,
             hardwareVersion: nil,
@@ -236,7 +236,7 @@ public class xDripClientManager: CGMManager {
 
     public var debugDescription: String {
         return [
-            "## xDripClientManager",
+            "## xDripClientRightRightManager",
             "latestBackfill: \(String(describing: latestBackfill))",
             "latestCollector: \(String(describing: latestCollector))",
             ""
