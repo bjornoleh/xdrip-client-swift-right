@@ -448,7 +448,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 432B0E821CDFC3C50045347B /* Build configuration list for PBXProject "xDripClient" */;
+			buildConfigurationList = 432B0E821CDFC3C50045347B /* Build configuration list for PBXProject "xDripClientRight" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1048,7 +1048,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		432B0E821CDFC3C50045347B /* Build configuration list for PBXProject "xDripClient" */ = {
+		432B0E821CDFC3C50045347B /* Build configuration list for PBXProject "xDripClientRight" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				432B0E9A1CDFC3C50045347B /* Debug */,
