@@ -7,8 +7,8 @@
 //
 
 import UIKit
-import xDripClientRightRightRight
-import xDripClientRightRightRightUI
+import xDripClientRight
+import xDripClientRightUI
 import LoopKit
 import HealthKit
 
@@ -19,7 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        let nav = xDripClientRightRightRightManager().settingsViewController(for: HKUnit.moleUnit(with: .milli, molarMass: HKUnitMolarMassBloodGlucose).unitDivided(by: .liter()))
+        let nav = xDripClientRightManager().settingsViewController(for: HKUnit.moleUnit(with: .milli, molarMass: HKUnitMolarMassBloodGlucose).unitDivided(by: .liter()))
         
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = nav

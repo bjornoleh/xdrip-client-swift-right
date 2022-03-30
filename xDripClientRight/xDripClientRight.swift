@@ -1,6 +1,6 @@
 //
-//  xDripClientRightRight.swift
-//  xDripClientRightRight
+//  xDripClientRight.swift
+//  xDripClientRight
 //
 //  Created by Mark Wilson on 5/7/16.
 //  Copyright © 2016 Mark Wilson. All rights reserved.
@@ -16,7 +16,7 @@ public enum ClientError: Error {
 }
 
 
-public class xDripClientRightRight {
+public class xDripClientRight {
     
     private let shared: UserDefaults?
     

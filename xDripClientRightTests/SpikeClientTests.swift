@@ -1,6 +1,6 @@
 //
-//  xDripClientRightRightRightTests.swift
-//  xDripClientRightRightRightTests
+//  xDripClientRightTests.swift
+//  xDripClientRightTests
 //
 //  Created by Nathan Racklyeft on 5/8/16.
 //  Copyright © 2016 Mark Wilson. All rights reserved.
@@ -9,7 +9,7 @@
 import XCTest
 
 
-class xDripClientRightRightRightTests: XCTestCase {
+class xDripClientRightTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

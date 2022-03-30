@@ -1,5 +1,5 @@
 //
-//  xDripClientRightRightRightSettingsViewController.swift
+//  xDripClientRightSettingsViewController.swift
 //  Loop
 //
 //  Copyright © 2018 LoopKit Authors. All rights reserved.
@@ -9,18 +9,18 @@ import UIKit
 import HealthKit
 import LoopKit
 import LoopKitUI
-import xDripClientRightRightRight
+import xDripClientRight
 
 
-public class xDripClientRightRightRightSettingsViewController: UITableViewController {
+public class xDripClientRightSettingsViewController: UITableViewController {
     
-    public let cgmManager: xDripClientRightRightRightManager
+    public let cgmManager: xDripClientRightManager
     
     public let glucoseUnit: HKUnit
     
     public let allowsDeletion: Bool
     
-    public init(cgmManager: xDripClientRightRightRightManager, glucoseUnit: HKUnit, allowsDeletion: Bool) {
+    public init(cgmManager: xDripClientRightManager, glucoseUnit: HKUnit, allowsDeletion: Bool) {
         self.cgmManager = cgmManager
         self.glucoseUnit = glucoseUnit
         self.allowsDeletion = allowsDeletion

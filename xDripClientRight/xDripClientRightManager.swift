@@ -1,5 +1,5 @@
 //
-//  xDripClientRightRightManager.swift
+//  xDripClientRightManager.swift
 //  Loop
 //
 //  Copyright © 2018 LoopKit Authors. All rights reserved.
@@ -11,12 +11,12 @@ import Combine
 
 
 
-public class xDripClientRightRightManager: CGMManager {
+public class xDripClientRightManager: CGMManager {
     
-    public static var managerIdentifier = "xDripClientRightRight"
+    public static var managerIdentifier = "xDripClientRight"
 
     public init() {
-        client = xDripClientRightRight()
+        client = xDripClientRight()
         updateTimer = DispatchTimer(timeInterval: 10, queue: processQueue)
         scheduleUpdateTimer()
     }
@@ -35,7 +35,7 @@ public class xDripClientRightRightManager: CGMManager {
         return [:]
     }
 
-    public var client: xDripClientRightRight?
+    public var client: xDripClientRight?
     
     public static let localizedTitle = LocalizedString("xDrip4iOS right", comment: "Title for the CGMManager option")
 
@@ -75,7 +75,7 @@ public class xDripClientRightRightManager: CGMManager {
 
     public let managedDataInterval: TimeInterval? = nil
     
-    private let processQueue = DispatchQueue(label: "xDripClientRightRightManager.processQueue")
+    private let processQueue = DispatchQueue(label: "xDripClientRightManager.processQueue")
 
     public private(set) var latestBackfill: Glucose?
     
@@ -223,7 +223,7 @@ public class xDripClientRightRightManager: CGMManager {
     public var device: HKDevice? {
         
         return HKDevice(
-            name: "xDripClientRightRight",
+            name: "xDripClientRight",
             manufacturer: "xDrip",
             model: latestCollector,
             hardwareVersion: nil,
@@ -236,7 +236,7 @@ public class xDripClientRightRightManager: CGMManager {
 
     public var debugDescription: String {
         return [
-            "## xDripClientRightRightManager",
+            "## xDripClientRightManager",
             "latestBackfill: \(String(describing: latestBackfill))",
             "latestCollector: \(String(describing: latestCollector))",
             ""
